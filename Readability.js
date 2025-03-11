@@ -1,5 +1,5 @@
-/*eslint-env es6:false*/
-/*
+ /*eslint-env es6:false*/
+ /*
  * Copyright (c) 2010 Arc90 Inc
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
