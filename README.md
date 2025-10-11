@@ -9,3 +9,5 @@
 >  4、🌐siteproxy在线代理工具   [项目来源](https://github.com/yonggekkk/argosbx)
 > 
 >  5、📋web-clipboard在线剪贴板   [项目来源](https://github.com/yun8862779/web-clipboard)
+> 
+>  6、🔁 不良林psub利用CF Worker搭建的反代订阅转换工具   [项目来源](https://github.com/bulianglin/psub)
