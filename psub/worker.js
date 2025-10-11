@@ -2918,7 +2918,7 @@ var src_default = {
   async fetch(request, env) {
     const url = new URL(request.url);
     const host = url.origin;
-    const frontendUrl = 'https://raw.githubusercontent.com/fjvi/code/main/psub/frontend.html';
+    const frontendUrl = 'https://raw.githubusercontent.com/fjvi/workes/main/psub/frontend.html';
     const SUB_BUCKET = env.SUB_BUCKET;
     let backend = env.BACKEND.replace(/(https?:\/\/[^/]+).*$/, "$1");
     const subDir = "subscription";
@@ -3285,4 +3285,5 @@ export {
   src_default as default
 };
 //# sourceMappingURL=index.js.map
+
 
