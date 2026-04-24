@@ -1612,7 +1612,7 @@ function a0_0xe2424d() {
 }
 function a0_0x3ae3ff(_0x312fac) {
     if (_0x312fac.token_prefix === '/' || _0x312fac.token_prefix === '//' || _0x312fac.token_prefix === '') {
-        _0x312fac.token_prefix = "/default/";
+        _0x312fac.token_prefix = "/692/";
         _0x312fac.default_password = true;
     }
     return _0x312fac;
