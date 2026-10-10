@@ -172,7 +172,6 @@ const htmlTemplate = `
       border-radius: 15px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       padding: 40px;
-      width: 80%;
       max-width: 960px;
       transition: background-color 0.5s ease;
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
@@ -184,7 +183,7 @@ const htmlTemplate = `
     }
     textarea {
       width: calc(100% - 30px);
-      height: 500px;
+      min-height: 300px;
       margin-bottom: 20px;
       padding: 15px;
       border: none;
@@ -239,6 +238,7 @@ const htmlTemplate = `
     .button-group {
       display: flex;
       justify-content: center;
+	  flex-wrap: wrap;
     }
 	    /* 分享列表 */
 /* 分享弹窗容器整体布局为上下结构 */
